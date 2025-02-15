@@ -2,6 +2,10 @@
 /shelf/
 /workspace.xml
 
+.idea
+.idea/
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -134,6 +138,8 @@ celerybeat.pid
 # Environments
 .env
 .venv
+.venv*
+.venv*/
 env/
 venv/
 ENV/
