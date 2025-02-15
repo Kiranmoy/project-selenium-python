@@ -2,8 +2,9 @@
 /shelf/
 /workspace.xml
 
-.idea
+.idea/
 .idea/*
+.idea/misc.xml
 
 
 # Byte-compiled / optimized / DLL files

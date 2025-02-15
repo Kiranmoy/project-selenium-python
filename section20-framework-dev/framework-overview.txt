@@ -10,3 +10,5 @@ Parameterizing webdriver tests with multiple data sets
 Organizing data from separate data files and injecting into fixture at runtime
 Implementing logging feature to webdriver tests
 Test execution HTML reporting
+Automatic screenshot capture on test failure
+Integrating selenium python framework to Jenkins CI tools with build parameterization
