@@ -3,11 +3,16 @@
 /workspace.xml
 
 .idea
-.idea/
+.idea/*
 
 
 # Byte-compiled / optimized / DLL files
-__pycache__/
+__pycache__
+.pytest_cache
+__pycache__/*
+.pytest_cache/*
+*/__pycache__/*
+*/.pytest_cache/*
 *.py[cod]
 *$py.class
 

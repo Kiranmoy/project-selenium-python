@@ -10,7 +10,13 @@ class base:
         formatter = logging.Formatter("%(asctime)s : %(levelname)s : %(name)s : %(message)s")
         # where to print - log location
         file_handler = logging.FileHandler('logfile.log')
+        console_handler = logging.StreamHandler()
+
         file_handler.setFormatter(formatter)
+        console_handler.setFormatter(formatter)
+
         logger.addHandler(file_handler)
+        logger.addHandler(console_handler)
+
         logger.setLevel(logging.DEBUG)
         return logger
